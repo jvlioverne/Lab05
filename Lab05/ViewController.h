@@ -10,6 +10,23 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *btnColor;
+
+@property (strong, nonatomic) IBOutlet UILabel *lblRed;
+@property (strong, nonatomic) IBOutlet UILabel *lblGreen;
+@property (strong, nonatomic) IBOutlet UILabel *lblBlue;
+
+
+
+@property (strong, nonatomic) IBOutlet UISlider *sldRed;
+@property (strong, nonatomic) IBOutlet UISlider *sldGreen;
+@property (strong, nonatomic) IBOutlet UISlider *sldBlue;
+
+@property (strong, nonatomic) IBOutlet UISlider *sldBlink;
+
+@property (strong, nonatomic) IBOutlet UILabel *lblBlink;
+@property (strong, nonatomic) NSTimer *timer;
+
 
 @end
 
